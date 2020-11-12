@@ -1,0 +1,54 @@
+section#description {
+  padding: 60px 0px;
+  background-color: #fff;
+}
+section#description .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#description .content h2 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #4b4b4b;
+}
+
+section#description .content div {
+  width: 440px;
+}
+
+section#description .content div p {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 10px;
+  color: #9a8ebf;
+}
+
+section#description .content div button {
+  background: #7159c1;
+  padding: 0px 30px;
+  color: #fff;
+  margin: 15px 0px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  section#description .content img {
+    display: none;
+  }
+
+  section#description .content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  section#description .content div {
+    width: 100%;
+  }
+}

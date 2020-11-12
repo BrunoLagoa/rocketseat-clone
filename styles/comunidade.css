@@ -1,0 +1,49 @@
+section#comunidade {
+  padding: 60px 0px;
+  background: #f1efff;
+}
+
+section#comunidade .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#comunidade .content div {
+  width: 440px;
+}
+
+section#comunidade .content div h2 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #4b4b4b;
+  font-weight: bold;
+}
+
+section#comunidade .content div p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #9a8ebf;
+}
+
+section#comunidade .content div button {
+  background: #7159c7;
+  color: #fff;
+  padding: 0px 30px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  section#comunidade .content img {
+    display: none;
+  }
+
+  section#comunidade .content div {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,105 @@
+header#main-header {
+  height: 80px;
+  width: 100%;
+  color: #fff;
+  background: #7159c1;
+}
+
+header#main-header .content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header .content menu {
+  display: none;
+}
+
+header#main-header .content span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+header#main-header .content menu .icon_menu {
+  margin-left: 10px;
+}
+
+header#main-header .content menu .icon_menu div {
+  height: 3px;
+  width: 30px;
+  margin: 5px 0px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+header#main-header .content nav {
+  display: flex;
+  align-items: center;
+}
+
+header#main-header .content nav ul {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+}
+
+header#main-header .content nav ul li {
+  margin: 0px 10px;
+  cursor: pointer;
+  color: #9e8cdc;
+}
+
+header#main-header .content nav ul li:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  margin-top: -2px;
+}
+
+header#main-header .content .side {
+  display: flex;
+  align-items: center;
+}
+
+header#main-header .content .side img {
+  margin: 0px 10px;
+}
+
+header#main-header .content .side button {
+  font-size: 12px;
+  font-weight: 600;
+  height: 38px;
+  padding: 0px 30px;
+  margin-left: 40px;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  color: #7159c1;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 830px) {
+  header#main-header {
+    height: 60px;
+  }
+
+  header#main-header .content nav {
+    display: none;
+  }
+
+  header#main-header .content menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  header#main-header .content .side button {
+    display: none;
+  }
+}

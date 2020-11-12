@@ -1,0 +1,106 @@
+section#contato {
+  padding: 10px 0px;
+  background: #7159c1;
+}
+
+section#contato .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#contato .content .container {
+  display: flex;
+  align-items: center;
+}
+
+section#contato .content .container .contato {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+section#contato .content .container .contato h2 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+section#contato .content .container .contato .input_email {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  margin-top: 15px;
+  padding: 0px 20px;
+  border-radius: 4px;
+}
+
+section#contato .content .container .contato.input_email input {
+  border: 0 none;
+  outline: 0;
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+section#contato .content .container .contato p {
+  font-size: 15px;
+  margin-top: 2px;
+  color: #d7d0ed;
+}
+
+@media only screen and (max-width: 850px) {
+  section#contato .content .side {
+    display: none;
+  }
+
+  section#contato .content {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  section#contato .content img:first-child {
+    display: none;
+  }
+
+  section#contato .content .container .contato {
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+
+footer div.informacoes {
+  padding: 30px 0px;
+}
+
+footer div.informacoes .content {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  color: #b4b4b4;
+}
+
+footer div.informacoes .content ul {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  list-style: none;
+}
+footer div.informacoes .content ul li {
+  margin-left: 4px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+@media only screen and (max-width: 1030px) {
+  footer div.informacoes .content ul {
+    display: none;
+  }
+
+  footer div.informacoes .content {
+    justify-content: center;
+  }
+}
